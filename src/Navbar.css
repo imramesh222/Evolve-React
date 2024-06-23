@@ -1,0 +1,30 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px; /* Set font size */
+}
+
+.navbar-item a:hover {
+  color: #ddd; /* Change color on hover */
+}
