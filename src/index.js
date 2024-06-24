@@ -1,10 +1,11 @@
 import React from 'react';
-import Nav from './Nav';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'
+import Nav from './Nav';
 import App from './App';
 import First from './First';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Product from './Product';
 
 
 
@@ -12,6 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
+    <Product/>
     <App />
     <First />
   </React.StrictMode>

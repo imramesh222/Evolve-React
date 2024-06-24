@@ -2,23 +2,21 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
-            </li>
-          </ul>
-        </div>
+   <nav class="navbar navbar-expand-lg bg-primary">
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">About</a>
+         </li>
+        </ul>
       </div>
-    </nav>
+   </nav>
   );
 }
 
