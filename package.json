@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "create-react-app": "^5.0.1",
+    "globally": "^0.0.0"
+>>>>>>> origin/main
   }
 }
